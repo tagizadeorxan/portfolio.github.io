@@ -1393,8 +1393,16 @@ input, select, textarea {
 				border-bottom: 0;
 			}
 
-		ul.contact-icons.color1 > li:before {
-			color: #726193;
+		ul.contact-icons.color1 > .fa-youtube:before {
+			color: red;
+		}
+
+		ul.contact-icons.color1 > .fa-linkedin:before {
+			color: #0077B5;
+		}
+
+		ul.contact-icons.color1 > .fa-instagram:before {
+			color: #cd486b ;
 		}
 
 		ul.contact-icons.color2 > li:before {
